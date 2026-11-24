@@ -1,0 +1,16 @@
+De naam van een gebruiker (kan veranderen tijdens een sessie)
+
+Antwoord: Let, omdat dit een variabel is. 
+De waarde van PI (3.14159)
+
+antwoord: const. Omdat het constant het zelfde getal blijft/is
+
+Een teller in een loop
+
+Antwoord: Let, want dit verandert elke keer. bijvoorbeeld elke keer komt er +5.
+Het huidige jaar (verandert niet tijdens runtime)
+
+Antwoord: consat omdat dit constant is. het laad een keer en dan blijft het daarop.
+Een score in een game (verandert vaak)
+
+Antwoord: let, omdat dit verandert en met scores hoger en lager kan gaan.
