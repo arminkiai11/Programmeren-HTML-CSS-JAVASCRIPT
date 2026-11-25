@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 12</title>
+</head>
+
+<body>
+
+    <h1>Leeftijdscategorieën</h1>
+    <p id="resultaat"></p>
+
+</body>
+
+<script>
+
+let leeftijd = Number(prompt("Hoe oud ben je?"));
+let categorie;
+
+if (leeftijd < 0){
+    categorie = "Ongeldige leeftijd";
+} else if (leeftijd <= 12) {
+    categorie = "Kind";
+} else if (leeftijd <= 17) {
+    categorie = "Tiener";
+} else if (leeftijd <= 24) {
+    categorie = "Jongvolswassen";
+} else if (leeftijd <= 64) {
+    categorie = "Volswassen";
+} else {
+    categorie = "Senior";
+}
+
+document.getElementById("resultaat").innerHTML = categorie;
+
+
+
+
+</script>
+
+
+</html>
